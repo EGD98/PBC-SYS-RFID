@@ -1,0 +1,150 @@
+{
+  "uuid": "8ce025feac652ad60487e957adc970c9",
+  "path": "Offline/system%20rfid%20online",
+  "name": "system rfid online",
+  "content": "",
+  "created_at": "2022-04-13 18:06:51",
+  "updated_at": "2022-06-14 21:40:25",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "f36d44346dd3f61aa795a6395bc6fc4d",
+      "title": "ES32_IoT_Shield",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "997c361bc7bb459db39e4c2e65855dd2": 1,
+        "bc5f1c1a64cb41e69aef066e59bf89a3": 1,
+        "ce92acfdc8024ab38f76e1c48c22973d": 1,
+        "8850ffcdb9d242a1b431d4a3e2209db1": 1,
+        "42fad33360ce4d529f5023cd31987928": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BotonProto1x2",
+          1,
+          "BOTON-PRO-1X2",
+          "B1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "ESP-12F(ESP8266MOD)",
+            "BOM_Supplier": "tostratonic",
+            "BOM_Supplier Part": "BTMWESP",
+            "puuid": "d58a08dd1d8b41b3aa214f1c920f06c2",
+            "uuid": "bc5f1c1a64cb41e69aef066e59bf89a3"
+          }
+        ],
+        [
+          "LED ACCESS",
+          1,
+          "LED-TH_BD5.0_GREEN",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "333-2SYGD/S530-E2",
+            "BOM_Supplier Part": "C88163",
+            "BOM_Supplier": "LCSC",
+            "puuid": "4da2878e35f448b0bac90f757c43e1e6",
+            "uuid": "ce92acfdc8024ab38f76e1c48c22973d"
+          }
+        ],
+        [
+          "LED DENIED",
+          1,
+          "LED-TH_BD5.0_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "333-2SURD/S530-A3",
+            "BOM_Supplier Part": "C87271",
+            "BOM_Supplier": "LCSC",
+            "puuid": "ce0ed154d45b41508e0debca8473ba07",
+            "uuid": "8850ffcdb9d242a1b431d4a3e2209db1"
+          }
+        ],
+        [
+          "RFID-RC522",
+          1,
+          "RFID-RC522",
+          "M2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "25d603feaecc438483fbe0eb677ea68a",
+            "uuid": "997c361bc7bb459db39e4c2e65855dd2"
+          }
+        ],
+        [
+          "330",
+          2,
+          "R_AXIAL-1.0",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "dd710703be1e4fec99153f373fdbc90f",
+            "uuid": "42fad33360ce4d529f5023cd31987928"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-1.0",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "dd710703be1e4fec99153f373fdbc90f",
+            "uuid": "42fad33360ce4d529f5023cd31987928"
+          }
+        ]
+      ],
+      "updateTime": 1653529807,
+      "createTime": 1649891211,
+      "histories": [],
+      "created_at": "2022-04-13 18:06:51",
+      "updated_at": "2022-05-25 20:50:07"
+    },
+    {
+      "uuid": "840a5f79216ca3d9dbf012c10ca6da58",
+      "puuid": "8ce025feac652ad60487e957adc970c9",
+      "title": "PCB_system rfid online_2",
+      "filename": "PCB_system rfid online_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6369c17ecae14706a0cd7476218c7077": 1,
+        "d58a08dd1d8b41b3aa214f1c920f06c2": 1,
+        "6338280a995e4dae948fc702cab3b092": 1,
+        "5d43e21e7b7a4854bf57dcfb56f7e885": 2,
+        "4da2878e35f448b0bac90f757c43e1e6": 1,
+        "ce0ed154d45b41508e0debca8473ba07": 1
+      },
+      "BOM": [],
+      "updateTime": 1655260825,
+      "createTime": 1649910014,
+      "histories": [],
+      "created_at": "2022-04-13 23:20:14",
+      "updated_at": "2022-06-14 21:40:25"
+    }
+  ],
+  "sort": [],
+  "title": "system rfid online",
+  "foldername": "system rfid online",
+  "schfilename": "system rfid online.json",
+  "schfilemtime": 1653529807356
+}
